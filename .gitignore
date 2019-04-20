@@ -1,0 +1,9 @@
+# Ignorando pastas/
+.metadata
+RemoteSystemsTempFiles
+Servers
+spring-pratica1-v2
+spring-pratica2-v2
+spring-pratica-mvc-1-v2
+
+
