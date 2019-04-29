@@ -27,7 +27,7 @@ public class Aluno {
 	private String curso;
 	@Past(message="a data deve estar no passado")
 	@DateTimeFormat(pattern="dd/MM/yyyy")
-	private Date dataNascimento;
+	private Date data;
 	@Digits(integer=3, fraction=1, message="Valor entre 0.00 e 100")
 	private BigDecimal cre;
 
@@ -50,10 +50,10 @@ public class Aluno {
 		this.curso = curso;
 	}
 	public Date getDataNascimento() {
-		return dataNascimento;
+		return data;
 	}
 	public void setDataNascimento(Date data) {
-		this.dataNascimento = data;
+		this.data = data;
 	}
 	public BigDecimal getCre() {
 		return cre;
